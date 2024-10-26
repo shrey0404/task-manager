@@ -52,7 +52,7 @@ const TaskForm = ({ onTaskAdded, taskToEdit, onTaskUpdated }) => {
       // Reset form fields
       setTitle("");
       setDescription("");
-      setPriority("Medium");
+      setPriority("medium");
       setDueDate(""); // Reset due date
     } catch (error) {
       console.error("Error creating/updating task:", error);
