@@ -1,0 +1,12 @@
+/* frontend/src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #f1f1f1, #e8eaf6);
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
