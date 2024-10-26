@@ -32,49 +32,47 @@ The Task Management Application is a web-based tool designed to help users manag
    git clone https://github.com/yourusername/task-manager-app.git
 Navigate to the frontend directory:
 
-bash
-Copy code
-cd task-manager-app/frontend
-Install frontend dependencies:
+2. **Navigate to the frontend directory:**:
+   ```bash
+   cd task-manager-app/frontend
 
-bash
-Copy code
-npm install
-Run the frontend application:
+3. **Install frontend dependencies:**:
+   ```bash
+   npm install
 
-bash
-Copy code
-npm run dev
-Navigate to the backend directory:
+3. **Run the frontend application:**:
+   ```bash
+   npm run dev
 
-bash
-Copy code
-cd ../backend
-Install backend dependencies:
+4. **Navigate to the backend directory:**:
+   ```bash
+   cd ../backend
 
-bash
-Copy code
-npm install
-Create a .env file in the backend directory and set your environment variables:
+5. **Install backend dependencies:**:
+   ```bash
+   npm install
 
-makefile
-Copy code
-MONGODB_URI=<your_mongodb_connection_string>
-Run the backend application:
+6. **Create a .env file in the backend directory and set your environment variables:**:
+   ```bash
+   MONGODB_URI=<your_mongodb_connection_string>
 
-bash
-Copy code
-node server.js
-API Endpoints
-GET /api/tasks - Retrieve all tasks
-POST /api/tasks - Create a new task
-PUT /api/tasks/:id - Update a task
-DELETE /api/tasks/:id - Delete a task
-Usage
-Access the frontend through your browser at http://localhost:3000.
-Use the form to add new tasks.
-Filter tasks using the search bar and priority dropdown.
-Manage tasks by updating their status or deleting them.
-Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
+7. **Run the backend application:**:
+   ```bash
+   node server.js
+   
+
+##API Endpoints
+- GET /api/tasks - Retrieve all tasks
+- POST /api/tasks - Create a new task
+- PUT /api/tasks/:id - Update a task
+- DELETE /api/tasks/:id - Delete a task
+
+##Usage
+- Access the frontend through your browser at http://localhost:3000.
+- Use the form to add new tasks.
+- Filter tasks using the search bar and priority dropdown.
+- Manage tasks by updating their status or deleting them.
+
+##Contributing
+- Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
 
